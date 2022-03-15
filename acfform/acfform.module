@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Configuring twig with default variables for custom block.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function acfform_theme($existing, $type, $theme, $path) {
+  return [
+    'block_acfform' => [
+      'variables' => ['city' => NULL, 'country' => NULL, 'current_time' => NULL],
+    ],
+  ];
+}

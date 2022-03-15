@@ -1,0 +1,4 @@
+services:
+  acfform.current_time:
+    class: Drupal\acfform\AcfCurrentTime
+    arguments: ['@config.factory', '@date.formatter']
