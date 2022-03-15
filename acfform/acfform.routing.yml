@@ -1,0 +1,7 @@
+acfform.settings:
+  path: '/admin/config/acfform/settings'
+  defaults:
+    _form: '\Drupal\acfform\Form\ACFConfigForm'
+    _title: 'ACF Site Location'
+  requirements:
+    _permission: 'administer site configuration'
